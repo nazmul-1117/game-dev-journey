@@ -208,3 +208,7 @@ __marimo__/
 
 # Nazmul's Personal
 master-prompt.txt
+*.exe
+*.zip
+*.iso
+.godot
