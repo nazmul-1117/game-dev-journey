@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://bpv1j7mjk3lm8"]
+
+[ext_resource type="Script" uid="uid://bbhqooymhvwci" path="res://inputs/input_events.gd" id="1_23r0m"]
+
+[node name="Inputs" type="Node2D" unique_id=1457184680]
+script = ExtResource("1_23r0m")
+
+[node name="ColorRect" type="ColorRect" parent="." unique_id=1044921371]
+offset_left = 306.0
+offset_top = 133.0
+offset_right = 506.0
+offset_bottom = 193.0
+
+[node name="Label" type="Label" parent="ColorRect" unique_id=800556755]
+modulate = Color(0.003921569, 0.6039216, 0, 1)
+layout_mode = 0
+offset_left = 22.0
+offset_top = 18.0
+offset_right = 176.0
+offset_bottom = 67.0
+text = "My Name is Nazmul
+"

@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://bevq62k5xjh81"]
+
+[ext_resource type="Script" uid="uid://cuha3y8jx87kl" path="res://inputs/mouse_events.gd" id="1_cubj1"]
+
+[node name="MouseEvents" type="Node2D" unique_id=1055668269]
+script = ExtResource("1_cubj1")
+
+[node name="Label" type="Label" parent="." unique_id=727485861]
+offset_left = 105.0
+offset_top = 81.0
+offset_right = 145.0
+offset_bottom = 104.0
+text = "Mouse Events"

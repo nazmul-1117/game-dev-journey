@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://7ce4inpgrlxp"]
+
+[ext_resource type="Script" uid="uid://bgv1q05m50rmv" path="res://inputs/keyboard_events.gd" id="1_8tmrh"]
+
+[node name="KeyboardEvents" type="Node2D" unique_id=164370139]
+script = ExtResource("1_8tmrh")
+
+[node name="Label" type="Label" parent="." unique_id=955284713]
+offset_right = 40.0
+offset_bottom = 23.0
+text = "This is KeyboardEvents"
