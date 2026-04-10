@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://q2r08hh2dtyl"]
+
+[ext_resource type="Script" uid="uid://c1hm3yqrv1k03" path="res://classes/main_class.gd" id="1_hyg24"]
+[ext_resource type="Script" uid="uid://g1ub3ghuddka" path="res://classes/character.gd" id="2_clgqs"]
+
+[node name="MainClass" type="Node" unique_id=393310080 node_paths=PackedStringArray("character")]
+script = ExtResource("1_hyg24")
+character = NodePath("Character3")
+
+[node name="Character" type="Node" parent="." unique_id=1938728941]
+script = ExtResource("2_clgqs")
+profession = "abc"
+health = "12"
+
+[node name="Character2" type="Node" parent="." unique_id=71073760]
+script = ExtResource("2_clgqs")
+profession = "jgf"
+health = "fch"
+
+[node name="Character3" type="Node" parent="." unique_id=279935696]
+script = ExtResource("2_clgqs")
+profession = "qwr"
+health = "qwe"
