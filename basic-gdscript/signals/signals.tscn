@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://clbxqytcglvby"]
+
+[ext_resource type="Script" uid="uid://ci00qkehikr40" path="res://signals/signals.gd" id="1_6ujut"]
+
+[node name="Signals" type="Node2D" unique_id=1081496280]
+script = ExtResource("1_6ujut")
+
+[node name="Button" type="Button" parent="." unique_id=1997610863]
+offset_left = 153.0
+offset_top = 112.0
+offset_right = 161.0
+offset_bottom = 120.0
+scale = Vector2(6.919997, 6.4)
+
+[node name="Timer" type="Timer" parent="." unique_id=1437563790]
+autostart = true
+
+[connection signal="leveled_up" from="." to="." method="_on_leveled_up"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
