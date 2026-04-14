@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://bxaw5y8hg60t3"]
+
+[ext_resource type="Script" uid="uid://cul5y5f3qou7n" path="res://vectors/vector_bouncing.gd" id="1_d7ax6"]
+[ext_resource type="Script" uid="uid://cp6i7sbxaa17e" path="res://vectors/player_1.gd" id="1_o5fj5"]
+[ext_resource type="Texture2D" uid="uid://03gbbvb6u2h7" path="res://icon.svg" id="1_shh8r"]
+
+[node name="VectorBouncing" type="Node2D" unique_id=715556181]
+script = ExtResource("1_d7ax6")
+
+[node name="Player1" type="Sprite2D" parent="." unique_id=1576408113]
+position = Vector2(16.000002, 18)
+scale = Vector2(0.34765625, 0.39062497)
+texture = ExtResource("1_shh8r")
+script = ExtResource("1_o5fj5")
